@@ -1,0 +1,7 @@
+{
+  "id": "Q040",
+  "source_definition": "A source instance is an explicitly encoded Boolean formula with at most three literals per clause. Its outputs are satisfying Boolean assignments, or NO-SOLUTION when the formula is unsatisfiable.",
+  "target_definition": "The target gives a split graph and color budget k. Find a proper coloring with at most k colors in which no four-vertex path is bichromatic, or report NO-SOLUTION.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
